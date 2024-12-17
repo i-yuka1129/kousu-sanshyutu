@@ -283,6 +283,15 @@ _H0K4kcJUbL,
 _ntRgKZZeZN
 ];
 
+const defineAppConfig = (config) => config;
+
+const appConfig0 = defineAppConfig({
+  ui: {
+    primary: "lime",
+    gray: "neutral"
+  }
+});
+
 const inlineAppConfig = {
   "nuxt": {},
   "icon": {
@@ -506,9 +515,7 @@ const inlineAppConfig = {
   }
 };
 
-
-
-const appConfig = defuFn(inlineAppConfig);
+const appConfig = defuFn(appConfig0, inlineAppConfig);
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();

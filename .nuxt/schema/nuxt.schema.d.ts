@@ -111,6 +111,14 @@ export interface NuxtCustomSchema {
    collections?: string[] | null,
 
    /**
+    * Custom Icon Collections
+    * 
+    * 
+    * @studioIcon material-symbols:format-list-bulleted
+   */
+   customCollections?: string[] | null,
+
+   /**
     * Icon Provider
     * 
     * Provider to use for fetching icons

@@ -113,6 +113,16 @@
               "default": null,
               "type": "any"
             },
+            "customCollections": {
+              "title": "Custom Icon Collections",
+              "tags": [
+                "@studioIcon material-symbols:format-list-bulleted"
+              ],
+              "tsType": "string[] | null",
+              "id": "#appConfig/icon/customCollections",
+              "default": null,
+              "type": "any"
+            },
             "provider": {
               "title": "Icon Provider",
               "description": "Provider to use for fetching icons\n\n- `server` - Fetch icons with a server handler\n- `iconify` - Fetch icons with Iconify API, purely client-side\n\n`server` by default; `iconify` when `ssr: false`",
@@ -195,6 +205,7 @@
             "cssLayer": {},
             "cssWherePseudo": true,
             "collections": null,
+            "customCollections": null,
             "iconifyApiEndpoint": "https://api.iconify.design",
             "fallbackToApi": true,
             "localApiEndpoint": "/api/_nuxt_icon",
@@ -216,6 +227,7 @@
           "cssLayer": {},
           "cssWherePseudo": true,
           "collections": null,
+          "customCollections": null,
           "iconifyApiEndpoint": "https://api.iconify.design",
           "fallbackToApi": true,
           "localApiEndpoint": "/api/_nuxt_icon",
@@ -239,6 +251,7 @@
         "cssLayer": {},
         "cssWherePseudo": true,
         "collections": null,
+        "customCollections": null,
         "iconifyApiEndpoint": "https://api.iconify.design",
         "fallbackToApi": true,
         "localApiEndpoint": "/api/_nuxt_icon",
