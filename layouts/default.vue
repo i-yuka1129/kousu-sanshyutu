@@ -1,9 +1,9 @@
 <template>
   <div>
 		<Headerarea />
-    <div class="flex">
+    <div class="">
 			<Sidebararea />
-      <div class="flex-1 bg-main-bg max-1520:ml-10">
+      <div class="">
         <slot />
       </div>
     </div>
