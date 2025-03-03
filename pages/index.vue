@@ -1,12 +1,12 @@
 <template>
-  <UContainer>
-    <UCard class="mt-10">
-      <template #header>
-        <div class="flex justify-between">
-          <h1>Welcome to Nuxt UI Starter</h1>
-          <ColorScheme><USelect v-model="$colorMode.preference" :options="['system', 'light', 'dark']" /></ColorScheme>
-        </div>
-      </template>
-    </UCard>
-  </UContainer>
+  <div class="home-wrapper">
+    <div class="home-side-left">
+      <theTitle
+        class="mb-6"
+        type="heading1"
+        fontsize="xl"
+        fontweight="bold"
+      >Dashboard</theTitle>
+    </div>
+  </div>
 </template>
