@@ -2,9 +2,9 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'AtomsButton': typeof import("../components/atoms/button.vue")['default']
-    'AtomsMoleculesHeaderarea': typeof import("../components/atoms/molecules/Headerarea.vue")['default']
-    'AtomsMoleculesSidebararea': typeof import("../components/atoms/molecules/Sidebararea.vue")['default']
+      'Button': typeof import("../components/atoms/button.vue")['default']
+    'HeaderArea': typeof import("../components/atoms/molecules/HeaderArea.vue")['default']
+    'SidebarArea': typeof import("../components/atoms/molecules/SidebarArea.vue")['default']
     'UAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
     'UAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
     'UAvatar': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']
@@ -81,9 +81,9 @@ interface _GlobalComponents {
     'UModals': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'USlideovers': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyAtomsButton': typeof import("../components/atoms/button.vue")['default']
-    'LazyAtomsMoleculesHeaderarea': typeof import("../components/atoms/molecules/Headerarea.vue")['default']
-    'LazyAtomsMoleculesSidebararea': typeof import("../components/atoms/molecules/Sidebararea.vue")['default']
+      'LazyButton': typeof import("../components/atoms/button.vue")['default']
+    'LazyHeaderArea': typeof import("../components/atoms/molecules/HeaderArea.vue")['default']
+    'LazySidebarArea': typeof import("../components/atoms/molecules/SidebarArea.vue")['default']
     'LazyUAccordion': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
     'LazyUAlert': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
     'LazyUAvatar': typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']
@@ -166,9 +166,9 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
-export const AtomsButton: typeof import("../components/atoms/button.vue")['default']
-export const AtomsMoleculesHeaderarea: typeof import("../components/atoms/molecules/Headerarea.vue")['default']
-export const AtomsMoleculesSidebararea: typeof import("../components/atoms/molecules/Sidebararea.vue")['default']
+export const Button: typeof import("../components/atoms/button.vue")['default']
+export const HeaderArea: typeof import("../components/atoms/molecules/HeaderArea.vue")['default']
+export const SidebarArea: typeof import("../components/atoms/molecules/SidebarArea.vue")['default']
 export const UAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
 export const UAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
 export const UAvatar: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']
@@ -245,9 +245,9 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const UModals: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const USlideovers: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-export const LazyAtomsButton: typeof import("../components/atoms/button.vue")['default']
-export const LazyAtomsMoleculesHeaderarea: typeof import("../components/atoms/molecules/Headerarea.vue")['default']
-export const LazyAtomsMoleculesSidebararea: typeof import("../components/atoms/molecules/Sidebararea.vue")['default']
+export const LazyButton: typeof import("../components/atoms/button.vue")['default']
+export const LazyHeaderArea: typeof import("../components/atoms/molecules/HeaderArea.vue")['default']
+export const LazySidebarArea: typeof import("../components/atoms/molecules/SidebarArea.vue")['default']
 export const LazyUAccordion: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Accordion.vue")['default']
 export const LazyUAlert: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Alert.vue")['default']
 export const LazyUAvatar: typeof import("../node_modules/@nuxt/ui/dist/runtime/components/elements/Avatar.vue")['default']

@@ -1,12 +1,16 @@
 <template>
-  <div>
-		<Headerarea />
-    <div class="">
-			<Sidebararea />
-      <div class="">
+  <header-area />
+  <div class="flex">
+    <SidebarArea />
+     <div class="flex-1 bg-main-bg">
+        <!-- ここからコンテンツ -->
         <slot />
-      </div>
+        <!-- ここまでコンテンツ -->
     </div>
-    <!-- <Footerarea /> -->
   </div>
 </template>
+
+<script setup lang="ts">
+  import HeaderArea from '~/components/atoms/molecules/HeaderArea.vue'
+  import SidebarArea from '~/components/atoms/molecules/SidebarArea.vue'
+</script>

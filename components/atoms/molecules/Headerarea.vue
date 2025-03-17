@@ -7,4 +7,7 @@
     </div>
   </header>
   </template>
-  
+
+<script setup>
+  defineProps({})
+</script>
