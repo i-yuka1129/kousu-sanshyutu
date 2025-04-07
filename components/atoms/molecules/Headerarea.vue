@@ -11,3 +11,18 @@
 <script setup>
   defineProps({})
 </script>
+
+<style scoped lang="scss">
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 32px;
+    background-color: #f2f3f7;
+    color: #333;
+    .header-inner {
+      padding: 8px;
+    }
+}
+</style>
