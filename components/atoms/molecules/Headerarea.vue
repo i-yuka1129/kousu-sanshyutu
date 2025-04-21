@@ -19,7 +19,7 @@
     flex-wrap: nowrap;
     align-items: center;
     height: 32px;
-    background-color: #f2f3f7;
+    background-color: #D0E4E6;
     color: #333;
     .header-inner {
       padding: 8px;
