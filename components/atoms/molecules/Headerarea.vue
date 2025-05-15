@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header-inner">
       <div class="nav-area">
-        <div class="logo"><nuxt-link to="/">工数算出ツール</nuxt-link></div>
+        <div class="logo"><nuxt-link to="/">KosuDashiKun</nuxt-link></div>
       </div>
     </div>
   </header>
@@ -18,9 +18,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    height: 32px;
-    background-color: #D0E4E6;
-    color: #333;
+    min-height: 32px;
+    font-size: 18px;
+    background-color: #086C6A;
+    color: #fff;
     .header-inner {
       padding: 8px;
     }
