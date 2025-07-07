@@ -7,7 +7,8 @@ export default <Partial<Config>>{
       colors: {
         green: {
           50: '#066a69',
-        }
+        },
+        'main-bg': '#F8FBFF',//メイン背景色
       }
     }
   }
