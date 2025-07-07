@@ -2,10 +2,8 @@
   <header-area />
   <div class="flex">
     <SidebarArea />
-     <div class="flex-1 bg-main-bg">
-        <!-- ここからコンテンツ -->
-        <slot />
-        <!-- ここまでコンテンツ -->
+     <div class="flex-1 bg-main-bg max-1520:ml-10">
+      <slot />
     </div>
   </div>
 </template>
